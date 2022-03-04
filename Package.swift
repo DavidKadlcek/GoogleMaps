@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -39,10 +39,10 @@ let package = Package(
         )
     ],
     targets: [
-        .binaryTarget(name: "GoogleMaps", path: "./GoogleMaps.xcframework"),
-        .binaryTarget(name: "GoogleMapsCore", path: "./GoogleMapsCore.xcframework"),
-        .binaryTarget(name: "GoogleMapsBase", path: "./GoogleMapsBase.xcframework"),
-        .binaryTarget(name: "GoogleMapsM4B", path: "./GoogleMapsM4B.xcframework"),
-        .binaryTarget(name: "GooglePlaces", path: "./GooglePlaces.xcframework")
+        .binaryTarget(name: "GoogleMaps", path: "./BetaMaps/GoogleMaps.xcframework"),
+        .binaryTarget(name: "GoogleMapsCore", path: "./BetaMaps/GoogleMapsCore.xcframework"),
+        .binaryTarget(name: "GoogleMapsBase", path: "./BetaMaps/GoogleMapsBase.xcframework"),
+        .binaryTarget(name: "GoogleMapsM4B", path: "./BetaMaps/GoogleMapsM4B.xcframework"),
+        .binaryTarget(name: "GooglePlaces", path: "./BetaMaps/GooglePlaces.xcframework")
     ]
 )
