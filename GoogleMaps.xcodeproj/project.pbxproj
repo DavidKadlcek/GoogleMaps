@@ -14,13 +14,12 @@
 		316751D627D271DB0069D561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316751D527D271DB0069D561 /* Assets.xcassets */; };
 		316751D927D271DB0069D561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316751D727D271DB0069D561 /* LaunchScreen.storyboard */; };
 		316751E127D2728A0069D561 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316751E027D2728A0069D561 /* Package.swift */; };
-		316751E327D273640069D561 /* BetaMaps in Resources */ = {isa = PBXBuildFile; fileRef = 316751E227D273640069D561 /* BetaMaps */; };
 		316751E627D2736C0069D561 /* GoogleMaps.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316751E527D2736C0069D561 /* GoogleMaps.xcframework */; };
 		316751E827D2736C0069D561 /* GoogleMapsBase.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316751E727D2736C0069D561 /* GoogleMapsBase.xcframework */; };
 		316751EA27D2736C0069D561 /* GoogleMapsCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316751E927D2736C0069D561 /* GoogleMapsCore.xcframework */; };
 		316751EC27D2736C0069D561 /* GoogleMapsM4B.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316751EB27D2736C0069D561 /* GoogleMapsM4B.xcframework */; };
 		316751EE27D2736C0069D561 /* GooglePlaces.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316751ED27D2736C0069D561 /* GooglePlaces.xcframework */; };
-		316751F027D273790069D561 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 316751EF27D273790069D561 /* GoogleMaps.bundle */; };
+		316751F227D275DC0069D561 /* BetaMaps in Resources */ = {isa = PBXBuildFile; fileRef = 316751F127D275DC0069D561 /* BetaMaps */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +32,12 @@
 		316751D827D271DB0069D561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		316751DA27D271DB0069D561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		316751E027D2728A0069D561 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
-		316751E227D273640069D561 /* BetaMaps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BetaMaps; sourceTree = "<group>"; };
 		316751E527D2736C0069D561 /* GoogleMaps.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMaps.xcframework; path = BetaMaps/GoogleMaps.xcframework; sourceTree = "<group>"; };
 		316751E727D2736C0069D561 /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMapsBase.xcframework; path = BetaMaps/GoogleMapsBase.xcframework; sourceTree = "<group>"; };
 		316751E927D2736C0069D561 /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMapsCore.xcframework; path = BetaMaps/GoogleMapsCore.xcframework; sourceTree = "<group>"; };
 		316751EB27D2736C0069D561 /* GoogleMapsM4B.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMapsM4B.xcframework; path = BetaMaps/GoogleMapsM4B.xcframework; sourceTree = "<group>"; };
 		316751ED27D2736C0069D561 /* GooglePlaces.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GooglePlaces.xcframework; path = BetaMaps/GooglePlaces.xcframework; sourceTree = "<group>"; };
-		316751EF27D273790069D561 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "BetaMaps/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		316751F127D275DC0069D561 /* BetaMaps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BetaMaps; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +59,7 @@
 		316751C027D271DA0069D561 = {
 			isa = PBXGroup;
 			children = (
-				316751EF27D273790069D561 /* GoogleMaps.bundle */,
 				316751E027D2728A0069D561 /* Package.swift */,
-				316751E227D273640069D561 /* BetaMaps */,
 				316751CB27D271DA0069D561 /* GoogleMaps */,
 				316751CA27D271DA0069D561 /* Products */,
 				316751E427D2736B0069D561 /* Frameworks */,
@@ -88,6 +84,7 @@
 				316751D527D271DB0069D561 /* Assets.xcassets */,
 				316751D727D271DB0069D561 /* LaunchScreen.storyboard */,
 				316751DA27D271DB0069D561 /* Info.plist */,
+				316751F127D275DC0069D561 /* BetaMaps */,
 			);
 			path = GoogleMaps;
 			sourceTree = "<group>";
@@ -162,9 +159,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316751E327D273640069D561 /* BetaMaps in Resources */,
-				316751F027D273790069D561 /* GoogleMaps.bundle in Resources */,
 				316751D927D271DB0069D561 /* LaunchScreen.storyboard in Resources */,
+				316751F227D275DC0069D561 /* BetaMaps in Resources */,
 				316751D627D271DB0069D561 /* Assets.xcassets in Resources */,
 				316751D427D271DA0069D561 /* Main.storyboard in Resources */,
 			);
